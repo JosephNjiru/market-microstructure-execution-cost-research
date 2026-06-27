@@ -1,0 +1,21 @@
+area,status,evidence_path,notes
+research purpose,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+data capability boundaries,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+claim enforcement,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+canonical schemas,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+feed integrity,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+order book features,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+microprice and imbalance,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+short-horizon labels,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+baseline diagnostics,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+execution cost mechanics,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+slippage benchmarks,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+schedule diagnostics,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+fill approximation,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+cost attribution reconciliation,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+impact proxy labelling,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+sensitivity analysis,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+reproducibility,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+limitations,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+release package,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.
+software paper draft,ready_with_stated_limits,reports/tables/publication_readiness_scorecard.csv,Ready under current evidence scope.

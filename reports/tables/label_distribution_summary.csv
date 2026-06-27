@@ -1,0 +1,14 @@
+horizon,movement_label,row_count,claim_boundary
+1_event,up,10,Predictive diagnostic only. No execution-cost claim.
+1_event,down,4,Predictive diagnostic only. No execution-cost claim.
+1_event,insufficient_future,1,Predictive diagnostic only. No execution-cost claim.
+3_event,flat,10,Predictive diagnostic only. No execution-cost claim.
+3_event,insufficient_future,3,Predictive diagnostic only. No execution-cost claim.
+3_event,up,1,Predictive diagnostic only. No execution-cost claim.
+3_event,down,1,Predictive diagnostic only. No execution-cost claim.
+5_event,down,6,Predictive diagnostic only. No execution-cost claim.
+5_event,insufficient_future,5,Predictive diagnostic only. No execution-cost claim.
+5_event,up,4,Predictive diagnostic only. No execution-cost claim.
+10_event,insufficient_future,10,Predictive diagnostic only. No execution-cost claim.
+10_event,up,4,Predictive diagnostic only. No execution-cost claim.
+10_event,down,1,Predictive diagnostic only. No execution-cost claim.

@@ -1,0 +1,5 @@
+execution_cost:
+  default_fee_per_share: 0.0
+  adverse_benchmark_move_bps: 1.0
+  participation_cap: 0.2
+  schedule_slices: 4

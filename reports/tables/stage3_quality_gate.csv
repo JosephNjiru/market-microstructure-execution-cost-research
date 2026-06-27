@@ -1,0 +1,5 @@
+check_name,status,details,evidence_path,run_timestamp_utc
+Stage 3 command passed,pass,Command completed.,run_project.py,2026-06-27T13:52:38.703784+00:00
+stage3_sweep_summary.csv exists,pass,Required output checked.,reports/tables/stage3_sweep_summary.csv,2026-06-27T13:52:38.703784+00:00
+stage3_claim_enforcement_summary.csv exists,pass,Required output checked.,reports/tables/stage3_claim_enforcement_summary.csv,2026-06-27T13:52:38.703784+00:00
+claim boundaries preserved,pass,"No trading, profitability, best-execution, live-trading or broker-grade TCA claim.",reports/tables/data_capability_matrix.csv,2026-06-27T13:52:38.703784+00:00

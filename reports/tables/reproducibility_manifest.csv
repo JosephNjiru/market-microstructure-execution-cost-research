@@ -1,0 +1,17 @@
+item,value,evidence_path,notes
+Python version,3.11.9,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+Project version,0.1.0,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+Operating system,Windows-10-10.0.26200-SP0,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+foundation command,python -m uv run python run_project.py --stage foundation,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+order-book command,python -m uv run python run_project.py --stage order-book,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+execution-cost command,python -m uv run python run_project.py --stage execution-cost,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+release command,python -m uv run python run_project.py --stage release,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+all stages command,python -m uv run python run_project.py --stage all --config config/project_config.yaml,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+pytest command,python -m uv run pytest,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+Ruff command,python -m uv run ruff check .,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+deterministic seed,20260227,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+data redistribution rule,no restricted data in release,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+generated fixture status,available,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+external data status,not downloaded,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+git commit hash,git_unavailable,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.
+git availability status,git_unavailable,reports/tables/reproducibility_manifest.csv,Release reproducibility evidence.

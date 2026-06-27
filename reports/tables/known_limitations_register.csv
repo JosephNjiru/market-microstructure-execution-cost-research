@@ -1,0 +1,12 @@
+limitation_id,limitation,affected_stage,impact,mitigation,status
+LIM-001,no full L3 data configured,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-002,no actual broker execution records,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-003,FI-2010 manual download only,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-004,LOBSTER sample manual download only,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-005,Databento MBO requires account and licence,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-006,generated fixtures are mechanics validation only,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-007,impact outputs are proxies,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-008,limit fill is approximation without L3 data,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-009,no best-execution compliance claim,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-010,no live-trading claim,All,Limits claim scope.,Add eligible data and independent validation.,active
+LIM-011,no broker-grade TCA claim,All,Limits claim scope.,Add eligible data and independent validation.,active

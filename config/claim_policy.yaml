@@ -1,0 +1,11 @@
+claim_levels:
+  - ingestion_demo
+  - lob_feature_benchmark
+  - parser_reconstruction_sample
+  - l3_order_level_execution
+  - controlled_mechanics_validation
+  - not_supported
+policy:
+  require_l3_for_exact_queue_position: true
+  require_order_ids_for_exact_fills: true
+  allow_generated_fixture_empirical_claims: false

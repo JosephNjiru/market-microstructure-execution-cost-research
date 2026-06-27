@@ -1,0 +1,19 @@
+pattern,reason,action
+.venv,virtual environment,excluded
+virtual environments,virtual environment,excluded
+.pytest_cache,test cache,excluded
+.ruff_cache,lint cache,excluded
+.mypy_cache,type-check cache,excluded
+__pycache__,bytecode cache,excluded
+*.pyc,compiled file,excluded
+*.pyo,compiled file,excluded
+*.log,log file,excluded
+*.tmp,temporary file,excluded
+*.bak,backup file,excluded
+.env,environment file,excluded
+data/raw,raw external data path,excluded
+data/external,external data path,excluded
+paid data,restricted data,excluded
+account-restricted data,restricted data,excluded
+licence-restricted data,restricted data,excluded
+large external raw datasets,large data,excluded

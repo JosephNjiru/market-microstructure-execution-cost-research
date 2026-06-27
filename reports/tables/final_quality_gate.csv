@@ -1,0 +1,26 @@
+check_name,status,details,evidence_path,run_timestamp_utc
+Stage 1 command passed,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+Stage 2 command passed,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+Stage 3 command passed,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+release command passed,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+final claim-boundary audit passed,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+table registry exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+figure registry exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+output inventory exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+reproducibility manifest exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+known limitations register exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+publication-readiness scorecard exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+final Markdown report exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+final HTML report exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+software paper draft exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+references.bib exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+source release package exists,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+modular source layout present in release,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+source release excludes virtual environments,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+source release excludes caches,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+source release excludes pycache directories,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+source release excludes compiled files,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+source release excludes paid or restricted datasets,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+"all Stage 1, Stage 2 and Stage 3 tests pass",pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+Ruff passes,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00
+no Stage 4 claim boundary failure,pass,Final audit check passed.,reports/tables/final_quality_gate.csv,2026-06-27T13:52:20.596568+00:00

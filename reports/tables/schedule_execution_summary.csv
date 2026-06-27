@@ -1,0 +1,4 @@
+scenario_id,schedule_type,slice_count,target_quantity,filled_quantity,unfilled_quantity,mean_slice_price,quantity_weighted_average_price,benchmark_price,schedule_slippage_bps,schedule_status,evidence_level,claim_boundary
+vwap_schedule,vwap,4,2400.0,2400.0,0.0,100.00999999999999,100.00999999999999,100.00999999999999,0.0,filled,controlled_mechanics_validation,Controlled schedule diagnostic only. No empirical execution-cost claim.
+twap_schedule,twap,4,2400.0,2400.0,0.0,100.02000000000001,100.02000000000001,100.02000000000001,0.0,filled,controlled_mechanics_validation,Controlled schedule diagnostic only. No empirical execution-cost claim.
+participation_schedule,participation,4,2400.0,2400.0,0.0,100.02000000000001,100.02000000000001,100.02000000000001,0.0,filled,controlled_mechanics_validation,Controlled schedule diagnostic only. No empirical execution-cost claim.

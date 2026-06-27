@@ -1,0 +1,5 @@
+scenario_id,components_reconcile
+marketable_buy,True
+marketable_sell,True
+partial_fill_buy_limit,True
+unfilled_residual_buy_limit,True

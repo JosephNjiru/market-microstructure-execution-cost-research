@@ -1,0 +1,2 @@
+time_bucket,mean_spread_bps,median_spread_bps,mean_depth,median_depth,mean_imbalance,volatility_proxy,event_count,profile_status
+2026-01-02 09:30,2.6664267066596006,3.9992001599686313,7466.666666666667,8000.0,0.0,0.0,15,limited_fixture

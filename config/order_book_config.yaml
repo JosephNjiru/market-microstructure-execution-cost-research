@@ -1,0 +1,9 @@
+order_book:
+  levels: 5
+  tick_size: 0.01
+  lot_size: 100
+  liquidity_thresholds:
+    low_depth_total: 1800
+    wide_spread_bps: 3.0
+  label_horizons: [1, 3, 5, 10]
+  flat_return_threshold: 0.0

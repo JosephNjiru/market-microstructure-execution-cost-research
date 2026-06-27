@@ -1,0 +1,11 @@
+sources:
+  - source_name: FI-2010
+    access_status: requires_manual_download
+  - source_name: LOBSTER_sample
+    access_status: requires_manual_download
+  - source_name: Databento_MBO_optional
+    access_status: requires_account
+  - source_name: Binance_public_data_secondary
+    access_status: available
+  - source_name: controlled_calibrated_simulation
+    access_status: available

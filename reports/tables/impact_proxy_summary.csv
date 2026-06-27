@@ -1,0 +1,8 @@
+scenario_id,order_size_bucket,liquidity_regime,levels_consumed,pre_trade_mid_price,post_trade_mid_price,post_trade_mid_change,marginal_depth_cost,impact_proxy_cost,evidence_level,claim_boundary
+market_sweep_small,small,normal,1,100.0,100.0,0.0,0.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.
+market_sweep_medium,medium,normal,2,100.00999999999999,100.00999999999999,0.0,6.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.
+market_sweep_large,large,normal,5,100.02000000000001,100.02000000000001,0.0,90.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.
+market_sweep_sell_medium,medium,normal,2,100.0,100.0,0.0,6.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.
+market_sweep_partial_fill,large,normal,2,100.00999999999999,100.00999999999999,0.0,7.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.
+market_sweep_unfilled_residual,large,wide_spread,0,100.02000000000001,100.02000000000001,0.0,0.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.
+wide_spread_sweep,medium,wide_spread,2,100.0,100.0,0.0,6.0,0.0,controlled_mechanics_validation,Impact proxy from controlled fixture only. Not an empirical market impact estimate.

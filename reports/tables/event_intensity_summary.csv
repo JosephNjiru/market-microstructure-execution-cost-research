@@ -1,0 +1,2 @@
+events_per_second,mean_inter_event_time,median_inter_event_time,burst_flag,low_activity_period_flag,duplicate_timestamp_count,out_of_order_timestamp_count
+1.0,1.0,1.0,False,False,1,1

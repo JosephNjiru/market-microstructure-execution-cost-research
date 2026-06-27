@@ -1,0 +1,82 @@
+artifact,claim_text_or_topic,evidence_type,allowed_claim_level,claim_status,action_taken,notes
+README.md,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+README.md,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.md,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/market_microstructure_execution_cost_report.html,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+paper/software_paper.md,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+docs/limitations.md,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/final_table_registry.csv,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/claim_enforcement_summary.csv,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage2_claim_enforcement_summary.csv,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,live trading readiness,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,profitability,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,best-execution compliance,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,broker-grade TCA,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,institutional execution quality,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,empirical execution cost from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,empirical market impact from generated data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,exact queue position without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.
+reports/tables/stage3_claim_enforcement_summary.csv,exact fills without L3 data,claim boundary audit,not_supported,pass,accepted,No prohibited affirmative claim detected.

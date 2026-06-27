@@ -1,0 +1,7 @@
+sensitivity_id,variable_name,variable_value,scenario_count,mean_cost_bps,median_cost_bps,max_cost_bps,partial_fill_count,unfilled_count,evidence_level,claim_boundary
+order_size_bucket_large,order_size_bucket,large,3,2.0227146836021355,1.9996000799843157,2.799440111977405,3,3,controlled_mechanics_validation,Controlled sensitivity diagnostic only. No empirical execution-cost claim.
+order_size_bucket_medium,order_size_bucket,medium,3,1.833283338332805,1.5000000000005116,2.499999999999602,0,0,controlled_mechanics_validation,Controlled sensitivity diagnostic only. No empirical execution-cost claim.
+order_size_bucket_small,order_size_bucket,small,1,1.0000000000005116,1.0000000000005116,1.0000000000005116,0,0,controlled_mechanics_validation,Controlled sensitivity diagnostic only. No empirical execution-cost claim.
+spread_regime_normal,spread_regime,normal,5,1.6136787971642832,1.4998500149983014,2.799440111977405,2,2,controlled_mechanics_validation,Controlled sensitivity diagnostic only. No empirical execution-cost claim.
+spread_regime_wide_spread,spread_regime,wide_spread,2,2.2498000399919587,2.2498000399919587,2.499999999999602,1,1,controlled_mechanics_validation,Controlled sensitivity diagnostic only. No empirical execution-cost claim.
+fee_assumption_0.0,fee_assumption,0.0,7,1.7954277236864762,1.5000000000005116,2.799440111977405,3,3,controlled_mechanics_validation,Controlled sensitivity diagnostic only. No empirical execution-cost claim.

@@ -1,0 +1,5 @@
+project:
+  name: market_microstructure_execution_cost_system
+  version: "0.1.0"
+  random_seed: 20260227
+  schema_version: "restored.1"

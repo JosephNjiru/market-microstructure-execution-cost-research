@@ -1,0 +1,2 @@
+scenario_id,side,limit_price,order_quantity,approx_filled_quantity,approx_unfilled_quantity,approx_fill_status,requires_l3_for_exact_claim,evidence_level,claim_boundary
+limit_order_fill_approximation,buy,99.99,1200.0,0.0,1200.0,not_filled_approximation,True,controlled_mechanics_validation,Approximation from L2 only. Exact fill claims require L3 order IDs and queue data.
