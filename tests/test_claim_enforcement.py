@@ -17,6 +17,6 @@ def test_claim_enforcement_blocks_generated_empirical_market_impact() -> None:
 
 
 def test_claim_enforcement_summary_records_blocked_actions() -> None:
-    summary = build_claim_enforcement_summary("Stage 4C")
+    summary = build_claim_enforcement_summary("release")
     assert "blocked_claim" in set(summary["action_taken"])
     assert "claim_allowed" in set(summary["action_taken"])

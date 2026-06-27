@@ -5,6 +5,8 @@ from zipfile import ZipFile
 
 import pandas as pd
 
+from microstructure_system.release.source_package import source_release_filename
+
 
 def test_final_quality_gate_passes() -> None:
     gate = pd.read_csv("reports/tables/final_quality_gate.csv")
@@ -41,7 +43,7 @@ def test_reproducibility_and_limitations_are_recorded() -> None:
 
 
 def test_release_package_exists_and_excludes_clutter() -> None:
-    package = Path("dist/market_microstructure_execution_cost_system_source_release.zip")
+    package = Path("dist") / source_release_filename()
     assert package.exists()
     with ZipFile(package) as archive:
         names = archive.namelist()

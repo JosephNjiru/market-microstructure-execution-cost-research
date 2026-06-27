@@ -4,7 +4,7 @@ Author: Joseph N. Njiru
 
 ## Executive summary
 
-This project implements a claim-aware Python research system for market microstructure analysis, order book feature engineering, execution-cost mechanics, slippage diagnostics, market impact proxies and reproducible transaction cost research. The system is organised as a four-stage pipeline. Stage 1 establishes the data capability matrix, claim enforcement, canonical schemas, feed-integrity checks and a deterministic LOB fixture. Stage 2 computes order book analytics, imbalance, microprice, liquidity regimes, short-horizon movement labels and baseline predictive diagnostics. Stage 3 implements execution-cost mechanics, marketable-order sweeps, implementation shortfall, slippage benchmarks, schedule diagnostics, limit-order fill approximation, cost attribution and impact proxies. Stage 4 builds the final report, registries, reproducibility evidence and clean source release package.
+This project implements a claim-aware Python research system for market microstructure analysis, order book feature engineering, execution-cost mechanics, slippage diagnostics, market impact proxies and reproducible transaction cost research. The system is organised as a four-stage pipeline. The foundation stage establishes the data capability matrix, claim enforcement, canonical schemas, feed-integrity checks and a deterministic LOB fixture. The order book stage computes analytics, imbalance, microprice, liquidity regimes, short-horizon movement labels and baseline predictive diagnostics. The execution-cost stage implements marketable-order sweeps, implementation shortfall, slippage benchmarks, schedule diagnostics, limit-order fill approximation, cost attribution and impact proxies. The release stage builds the final report, registries, reproducibility evidence and quality-gate artefacts.
 
 The project is deliberately conservative. Generated data validate mechanics and accounting only. FI-2010 is treated as a public LOB feature and mid-price movement benchmark, not as execution-cost evidence. LOBSTER samples are treated as parser and reconstruction validation where available. Databento MBO or equivalent L3 data remains the conditional route for exact queue-position and order-level execution claims. No trading, profitability, best-execution, broker-grade TCA, institutional execution-quality or live-trading claim is made.
 
@@ -36,23 +36,21 @@ The system is organised by responsibility. The CLI parses arguments and dispatch
 
 The schema layer provides named validation for BookSnapshotL2, OrderEventL3, TradeEvent, ExecutionScenario, SimulatedFill, CostAttribution, DataSourceCapability, DataSourceAudit, DataCapabilityMatrix, FeedIntegrityReport and ClaimEnforcementResult. Metadata fields include source, source dataset, ingestion timestamp, schema version, data quality flag and record hash where relevant. Ingestion timestamps are metadata only and are not presented as evidence of historical market availability.
 
-## Stage 1 foundation evidence
+## Foundation evidence
 
-Stage 1 creates the project scaffold, data capability matrix, data source audit, claim enforcement examples, deterministic LOB fixture, feed-integrity checks, schema summaries, market sweep continuity checks and a Stage 1 quality gate. The generated LOB fixture contains stable periods, wider-spread periods, low-depth periods, locked and crossed book examples, out-of-order timestamps and missing-level checks.
+The foundation layer creates the project scaffold, data capability matrix, data source audit, claim enforcement examples, deterministic LOB fixture, feed-integrity checks, schema summaries, market sweep continuity checks and a quality gate. The generated LOB fixture contains stable periods, wider-spread periods, low-depth periods, locked and crossed book examples, out-of-order timestamps and missing-level checks.
 
-## Stage 2 order book analytics evidence
+## Order book analytics evidence
 
-Stage 2 loads the Stage 1 L2 snapshot fixture and computes best bid, best ask, mid-price, quoted spread, relative spread, spread in basis points, total displayed depth, top-level imbalance, multi-level imbalance, microprice, weighted mid, simple book slopes and liquidity pressure. These outputs support feature diagnostics only. They do not support execution-quality or trading claims.
+The order book analytics layer loads the L2 snapshot fixture and computes best bid, best ask, mid-price, quoted spread, relative spread, spread in basis points, total displayed depth, top-level imbalance, multi-level imbalance, microprice, weighted mid, simple book slopes and liquidity pressure. These outputs support feature diagnostics only. They do not support execution-quality or trading claims.
 
-## Stage 3 execution-cost and slippage evidence
+## Execution-cost and slippage evidence
 
-Stage 3 implements controlled execution mechanics over the deterministic fixture. Marketable buy orders consume ask levels from best ask outward. Marketable sell orders consume bid levels from best bid outward. Limit prices restrict eligible levels. Partial fills and unfilled residuals are recorded. Cost components reconcile to total cost. These outputs validate software logic and accounting under controlled inputs only.
+The execution-cost layer implements controlled execution mechanics over the deterministic fixture. Marketable buy orders consume ask levels from best ask outward. Marketable sell orders consume bid levels from best bid outward. Limit prices restrict eligible levels. Partial fills and unfilled residuals are recorded. Cost components reconcile to total cost. These outputs validate software logic and accounting under controlled inputs only.
 
-## Stage 4 release and reproducibility evidence
+## Release and reproducibility evidence
 
-Stage 4 builds final tables, figures, registries, reproducibility manifest, known limitations register, publication-readiness scorecard, final quality gate, final report and clean release package. The clean package excludes virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets, large external raw data and the manual paper draft folder.
-
-The final public-sharing instruction is explicit: use the clean source release package in `dist` or a cleaned repository folder without `.venv`, caches or restricted data. Manual project-folder zips that include virtual environments are not suitable for GitHub or public review.
+The release layer builds final tables, figures, registries, reproducibility manifest, known limitations register, publication-readiness scorecard, final quality gate and final report. Redistribution controls exclude virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets and large external raw data.
 
 ## Order book feature summary
 
@@ -76,7 +74,7 @@ Baseline diagnostics include a naive majority-class model and a transparent logi
 
 ## Execution scenarios
 
-Stage 3 creates deterministic market sweep, VWAP, TWAP, participation and limit-order approximation scenarios. Scenario metadata records source, source dataset, evidence level and claim boundary. The current scenarios are generated from fixture book states and are designed for software validation.
+The execution-cost layer creates deterministic market sweep, VWAP, TWAP, participation and limit-order approximation scenarios. Scenario metadata records source, source dataset, evidence level and claim boundary. The current scenarios are generated from fixture book states and are designed for software validation.
 
 ## Marketable-order sweep results
 
@@ -128,18 +126,16 @@ Run the stage commands in order: foundation, order-book, execution-cost and rele
 
 ## Release package contents
 
-The clean source release package is `dist/market_microstructure_execution_cost_system_source_release.zip`. It includes source code, tests, configuration, documentation, reports and root project metadata. It excludes virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets, large external raw data and the manual `paper` folder.
-
-This package is the intended upload artefact for repository presentation. Do not upload `.venv`, `.pytest_cache`, `.ruff_cache`, `.mypy_cache`, `__pycache__`, compiled files, environment files, paid data, account-restricted data, licence-restricted data or large raw datasets.
+The release manifest records source code, tests, configuration, documentation, reports and root project metadata. Redistribution controls exclude virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets and large external raw data.
 
 ## References
 
-The research basis includes Kyle on continuous auctions, Almgren and Chriss on optimal execution, Hasbrouck on empirical market microstructure, Cont, Stoikov and Talreja on stochastic LOB modelling, Cont, Kukanov and Stoikov on order flow imbalance, the FI-2010 benchmark paper, Cartea, Jaimungal and Penalva on algorithmic trading, and reproducible research sources. The software paper and full bibliography will be finalised manually outside this public repository upload.
+The research basis includes Kyle on continuous auctions, Almgren and Chriss on optimal execution, Hasbrouck on empirical market microstructure, Cont, Stoikov and Talreja on stochastic LOB modelling, Cont, Kukanov and Stoikov on order flow imbalance, the FI-2010 benchmark paper, Cartea, Jaimungal and Penalva on algorithmic trading, and reproducible research sources.
 
 ## Appendix of tables
 
-The final table registry lists Stage 1, Stage 2, Stage 3 and Stage 4 tables with paths, row counts, column counts, purpose, evidence type, claim boundary and hash.
+The final table registry lists evidence tables with paths, row counts, column counts, purpose, evidence type, claim boundary and hash.
 
 ## Appendix of figures
 
-The final figure registry lists Stage 1, Stage 2, Stage 3 and Stage 4 figures with paths, purpose, evidence type, claim boundary and hash.
+The final figure registry lists evidence figures with paths, purpose, evidence type, claim boundary and hash.

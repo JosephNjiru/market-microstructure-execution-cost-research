@@ -1,13 +1,11 @@
 # Limitations
 
-No full L3 data or actual broker execution records are configured. Generated fixtures validate mechanics and accounting only. Impact outputs are proxies. Limit-order fill outputs are approximations without L3 order IDs and queue data. No best-execution, live-trading, broker-grade TCA, profitability or institutional execution-quality claim is made.
+No full L3 data or actual broker execution records are configured.
 
-A Stage 4B maintainability patch restored the modular code layout while preserving the validated evidence scope, claim-boundary audit and release behaviour.
+Generated fixtures validate mechanics and accounting only. Impact outputs are proxies. Limit-order fill outputs are approximations without L3 order IDs and queue data.
 
-A Stage 4C public-readiness patch moved implementation logic out of the pipeline coordinator, expanded the final report, strengthened tests and rebuilt the clean release package. The software paper will be finalised separately and is not part of the public repository upload.
+The project does not make best-execution, live-trading, broker-grade TCA, profitability or institutional execution-quality claims.
 
-Use the clean source release package in dist for public sharing. Do not upload virtual environments, caches or restricted data.
+FI-2010 and LOBSTER data require manual access and are not redistributed here. Databento MBO requires account access, credentials and licence review.
 
 Author: Joseph N. Njiru.
-
-The presence of a local virtual environment is a workspace convenience only. It is not part of the research artefact and must not be uploaded.

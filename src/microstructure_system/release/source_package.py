@@ -6,9 +6,14 @@ from zipfile import ZIP_DEFLATED, ZipFile
 from microstructure_system.release.manifest import _is_excluded_path
 
 
+def source_release_filename() -> str:
+    """Return the generated source release filename."""
+    return "market_microstructure_execution_cost_system_source_release.zip"
+
+
 def build_source_release_package(project_root: Path) -> Path:
     """Build the clean source release zip for public sharing."""
-    package_path = project_root / "dist/market_microstructure_execution_cost_system_source_release.zip"
+    package_path = project_root / "dist" / source_release_filename()
     package_path.parent.mkdir(parents=True, exist_ok=True)
     if package_path.exists():
         package_path.unlink()

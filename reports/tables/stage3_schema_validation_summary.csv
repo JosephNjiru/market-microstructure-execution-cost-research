@@ -1,4 +1,4 @@
 schema_name,status,row_count,details,run_timestamp_utc
-ExecutionScenarioStage3,pass,1,Schema validation passed.,2026-06-27T15:23:44.691035+00:00
-Stage3SimulatedFill,pass,1,Schema validation passed.,2026-06-27T15:23:44.691035+00:00
-Stage3CostAttribution,pass,1,Schema validation passed.,2026-06-27T15:23:44.691035+00:00
+ExecutionScenarioStage3,pass,1,Schema validation passed.,2026-06-27T15:31:52.442982+00:00
+Stage3SimulatedFill,pass,1,Schema validation passed.,2026-06-27T15:31:52.442982+00:00
+Stage3CostAttribution,pass,1,Schema validation passed.,2026-06-27T15:31:52.442982+00:00

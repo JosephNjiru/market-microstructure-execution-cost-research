@@ -7,7 +7,7 @@ from microstructure_system.reporting.figure_registry import build_figure_registr
 from microstructure_system.reporting.table_registry import build_table_registry
 
 
-def test_final_report_contains_required_stage4c_sections() -> None:
+def test_final_report_contains_required_sections() -> None:
     text = Path("reports/market_microstructure_execution_cost_report.md").read_text(encoding="utf-8")
     for heading in [
         "Author: Joseph N. Njiru",
@@ -19,9 +19,12 @@ def test_final_report_contains_required_stage4c_sections() -> None:
         assert heading in text
 
 
-def test_public_report_notes_manual_paper_pathway() -> None:
+def test_public_report_omits_upload_instructions() -> None:
     text = Path("reports/market_microstructure_execution_cost_report.md").read_text(encoding="utf-8")
-    assert "software paper and full bibliography will be finalised manually" in text.lower()
+    release_name = "market_microstructure_execution_cost_system_source_release" + ".zip"
+    assert release_name not in text
+    assert "maintainability " + "patch" not in text
+    assert "public-readiness " + "patch" not in text
 
 
 def test_registries_cover_all_stages() -> None:

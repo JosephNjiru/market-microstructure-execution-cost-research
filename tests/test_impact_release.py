@@ -8,6 +8,7 @@ import pandas as pd
 from microstructure_system.impact.market_impact import calculate_impact_proxies
 from microstructure_system.impact.sensitivity import build_execution_sensitivity_summary
 from microstructure_system.release.manifest import build_release_exclusions
+from microstructure_system.release.source_package import source_release_filename
 
 
 def test_impact_proxy_labelling(
@@ -34,7 +35,7 @@ def test_release_exclusions_cover_public_cleanliness_requirements() -> None:
 
 
 def test_release_zip_excludes_environment_and_cache_paths() -> None:
-    package = Path("dist/market_microstructure_execution_cost_system_source_release.zip")
+    package = Path("dist") / source_release_filename()
     with ZipFile(package) as archive:
         names = archive.namelist()
     joined = "\n".join(names)

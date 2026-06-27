@@ -1,9 +1,9 @@
 check_name,status,invalid_count,details,run_timestamp_utc
-valid_bid_ask_ordering,fail,2,2 rows flagged.,2026-06-27T15:23:39.277785+00:00
-positive_prices,pass,0,0 rows flagged.,2026-06-27T15:23:39.277785+00:00
-positive_sizes,pass,0,0 rows flagged.,2026-06-27T15:23:39.277785+00:00
-duplicate_timestamp_detection,fail,1,1 rows flagged.,2026-06-27T15:23:39.277785+00:00
-out_of_order_timestamp_detection,fail,1,1 rows flagged.,2026-06-27T15:23:39.277785+00:00
-missing_level_detection,fail,1,1 rows flagged.,2026-06-27T15:23:39.277785+00:00
-crossed_book_detection,fail,1,1 rows flagged.,2026-06-27T15:23:39.277785+00:00
-locked_book_detection,fail,1,1 rows flagged.,2026-06-27T15:23:39.277785+00:00
+valid_bid_ask_ordering,fail,2,2 rows flagged.,2026-06-27T15:31:47.108729+00:00
+positive_prices,pass,0,0 rows flagged.,2026-06-27T15:31:47.108729+00:00
+positive_sizes,pass,0,0 rows flagged.,2026-06-27T15:31:47.108729+00:00
+duplicate_timestamp_detection,fail,1,1 rows flagged.,2026-06-27T15:31:47.108729+00:00
+out_of_order_timestamp_detection,fail,1,1 rows flagged.,2026-06-27T15:31:47.108729+00:00
+missing_level_detection,fail,1,1 rows flagged.,2026-06-27T15:31:47.108729+00:00
+crossed_book_detection,fail,1,1 rows flagged.,2026-06-27T15:31:47.108729+00:00
+locked_book_detection,fail,1,1 rows flagged.,2026-06-27T15:31:47.108729+00:00

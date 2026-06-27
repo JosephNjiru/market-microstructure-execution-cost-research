@@ -43,6 +43,7 @@ from microstructure_system.release.manifest import (
     build_release_exclusions,
 )
 from microstructure_system.release.reproducibility import build_reproducibility_manifest
+from microstructure_system.release.source_package import source_release_filename
 from microstructure_system.reporting.claim_boundary_audit import build_claim_boundary_audit
 from microstructure_system.reporting.figure_registry import build_figure_registry
 from microstructure_system.reporting.publication_readiness import (
@@ -307,7 +308,7 @@ def test_release_inventory_and_exclusions_modules() -> None:
 
 
 def test_release_package_contains_modular_source_layout() -> None:
-    package = ROOT / "dist/market_microstructure_execution_cost_system_source_release.zip"
+    package = ROOT / "dist" / source_release_filename()
     assert package.exists()
     with ZipFile(package) as archive:
         names = set(archive.namelist())
