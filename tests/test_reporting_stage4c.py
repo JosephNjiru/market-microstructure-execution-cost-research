@@ -19,16 +19,9 @@ def test_final_report_contains_required_stage4c_sections() -> None:
         assert heading in text
 
 
-def test_software_paper_contains_research_article_sections() -> None:
-    text = Path("paper/software_paper.md").read_text(encoding="utf-8")
-    for heading in [
-        "Author: Joseph N. Njiru",
-        "## Abstract",
-        "## Statement of need",
-        "## Software architecture",
-        "## Limitations",
-    ]:
-        assert heading in text
+def test_public_report_notes_manual_paper_pathway() -> None:
+    text = Path("reports/market_microstructure_execution_cost_report.md").read_text(encoding="utf-8")
+    assert "software paper and full bibliography will be finalised manually" in text.lower()
 
 
 def test_registries_cover_all_stages() -> None:

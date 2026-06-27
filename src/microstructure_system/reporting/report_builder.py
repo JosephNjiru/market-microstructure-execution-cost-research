@@ -30,7 +30,7 @@ Author: Joseph N. Njiru
 
 ## Executive summary
 
-This project implements a claim-aware Python research system for market microstructure analysis, order book feature engineering, execution-cost mechanics, slippage diagnostics, market impact proxies and reproducible transaction cost research. The system is organised as a four-stage pipeline. Stage 1 establishes the data capability matrix, claim enforcement, canonical schemas, feed-integrity checks and a deterministic LOB fixture. Stage 2 computes order book analytics, imbalance, microprice, liquidity regimes, short-horizon movement labels and baseline predictive diagnostics. Stage 3 implements execution-cost mechanics, marketable-order sweeps, implementation shortfall, slippage benchmarks, schedule diagnostics, limit-order fill approximation, cost attribution and impact proxies. Stage 4 builds the final report, software paper draft, registries, reproducibility evidence and clean source release package.
+This project implements a claim-aware Python research system for market microstructure analysis, order book feature engineering, execution-cost mechanics, slippage diagnostics, market impact proxies and reproducible transaction cost research. The system is organised as a four-stage pipeline. Stage 1 establishes the data capability matrix, claim enforcement, canonical schemas, feed-integrity checks and a deterministic LOB fixture. Stage 2 computes order book analytics, imbalance, microprice, liquidity regimes, short-horizon movement labels and baseline predictive diagnostics. Stage 3 implements execution-cost mechanics, marketable-order sweeps, implementation shortfall, slippage benchmarks, schedule diagnostics, limit-order fill approximation, cost attribution and impact proxies. Stage 4 builds the final report, registries, reproducibility evidence and clean source release package.
 
 The project is deliberately conservative. Generated data validate mechanics and accounting only. FI-2010 is treated as a public LOB feature and mid-price movement benchmark, not as execution-cost evidence. LOBSTER samples are treated as parser and reconstruction validation where available. Databento MBO or equivalent L3 data remains the conditional route for exact queue-position and order-level execution claims. No trading, profitability, best-execution, broker-grade TCA, institutional execution-quality or live-trading claim is made.
 
@@ -52,7 +52,7 @@ The data capability matrix records source-level support for L1, L2, L3, trades, 
 
 ## Claim enforcement design
 
-Claim enforcement is implemented as a first-class quality component. The enforcement module evaluates requested claims against source capabilities and returns pass or fail status with reasons and actions. Each major stage writes a claim-enforcement summary. The final claim-boundary audit checks README, reports, paper, limitation documents, registries and enforcement outputs for prohibited public-facing claims.
+Claim enforcement is implemented as a first-class quality component. The enforcement module evaluates requested claims against source capabilities and returns pass or fail status with reasons and actions. Each major stage writes a claim-enforcement summary. The final claim-boundary audit checks README, reports, limitation documents, registries and enforcement outputs for prohibited public-facing claims.
 
 ## System architecture
 
@@ -76,7 +76,7 @@ Stage 3 implements controlled execution mechanics over the deterministic fixture
 
 ## Stage 4 release and reproducibility evidence
 
-Stage 4 builds final tables, figures, registries, reproducibility manifest, known limitations register, publication-readiness scorecard, final quality gate, final report, software paper draft, references and clean release package. The clean package excludes virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets and large external raw data.
+Stage 4 builds final tables, figures, registries, reproducibility manifest, known limitations register, publication-readiness scorecard, final quality gate, final report and clean release package. The clean package excludes virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets, large external raw data and the manual paper draft folder.
 
 The final public-sharing instruction is explicit: use the clean source release package in `dist` or a cleaned repository folder without `.venv`, caches or restricted data. Manual project-folder zips that include virtual environments are not suitable for GitHub or public review.
 
@@ -154,13 +154,13 @@ Run the stage commands in order: foundation, order-book, execution-cost and rele
 
 ## Release package contents
 
-The clean source release package is `dist/market_microstructure_execution_cost_system_source_release.zip`. It includes source code, tests, configuration, documentation, reports, paper draft and root project metadata. It excludes virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets and large external raw data.
+The clean source release package is `dist/market_microstructure_execution_cost_system_source_release.zip`. It includes source code, tests, configuration, documentation, reports and root project metadata. It excludes virtual environments, caches, compiled files, logs, temp files, environment files, restricted datasets, large external raw data and the manual `paper` folder.
 
 This package is the intended upload artefact for repository presentation. Do not upload `.venv`, `.pytest_cache`, `.ruff_cache`, `.mypy_cache`, `__pycache__`, compiled files, environment files, paid data, account-restricted data, licence-restricted data or large raw datasets.
 
 ## References
 
-The bibliography includes Kyle on continuous auctions, Almgren and Chriss on optimal execution, Hasbrouck on empirical market microstructure, Cont, Stoikov and Talreja on stochastic LOB modelling, Cont, Kukanov and Stoikov on order flow imbalance, the FI-2010 benchmark paper, Cartea, Jaimungal and Penalva on algorithmic trading, and reproducible research sources.
+The research basis includes Kyle on continuous auctions, Almgren and Chriss on optimal execution, Hasbrouck on empirical market microstructure, Cont, Stoikov and Talreja on stochastic LOB modelling, Cont, Kukanov and Stoikov on order flow imbalance, the FI-2010 benchmark paper, Cartea, Jaimungal and Penalva on algorithmic trading, and reproducible research sources. The software paper and full bibliography will be finalised manually outside this public repository upload.
 
 ## Appendix of tables
 

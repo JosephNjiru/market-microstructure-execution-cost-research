@@ -18,12 +18,10 @@ def test_claim_boundary_audit_has_no_failures() -> None:
     assert not (audit["claim_status"] == "fail").any()
 
 
-def test_reports_and_paper_exist() -> None:
+def test_public_reports_exist_without_manual_paper_folder() -> None:
     for path in [
         "reports/market_microstructure_execution_cost_report.md",
         "reports/market_microstructure_execution_cost_report.html",
-        "paper/software_paper.md",
-        "paper/references.bib",
     ]:
         assert Path(path).exists(), path
 
@@ -64,7 +62,6 @@ def test_no_prohibited_affirmative_claims() -> None:
         for path in [
             "README.md",
             "reports/market_microstructure_execution_cost_report.md",
-            "paper/software_paper.md",
         ]
     )
     for phrase in [

@@ -51,7 +51,6 @@ from microstructure_system.reporting.publication_readiness import (
 )
 from microstructure_system.reporting.report_builder import (
     write_final_report,
-    write_software_paper,
 )
 from microstructure_system.reporting.table_registry import build_table_registry
 from microstructure_system.schemas.validation import build_schema_validation_summary
@@ -244,7 +243,6 @@ def run_release_stage(root: Path) -> None:
     write_csv(readiness, root / "reports/tables/publication_readiness_scorecard.csv")
     write_csv(build_output_inventory(root), root / "reports/tables/output_inventory.csv")
     write_final_report(root)
-    write_software_paper(root)
     package = build_source_release_package(root)
     write_csv(build_release_exclusions(), root / "reports/tables/final_release_exclusions.csv")
     write_csv(build_output_inventory(root), root / "reports/tables/final_release_manifest.csv")

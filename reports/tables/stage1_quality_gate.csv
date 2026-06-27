@@ -1,6 +1,6 @@
 check_name,status,details,evidence_path,run_timestamp_utc
-Stage 1 command passed,pass,Command completed.,run_project.py,2026-06-27T13:52:32.078288+00:00
-data_capability_matrix.csv exists,pass,Required output checked.,reports/tables/data_capability_matrix.csv,2026-06-27T13:52:32.078288+00:00
-claim_enforcement_summary.csv exists,pass,Required output checked.,reports/tables/claim_enforcement_summary.csv,2026-06-27T13:52:32.078288+00:00
-feed_integrity_summary.csv exists,pass,Required output checked.,reports/tables/feed_integrity_summary.csv,2026-06-27T13:52:32.078288+00:00
-claim boundaries preserved,pass,"No trading, profitability, best-execution, live-trading or broker-grade TCA claim.",reports/tables/data_capability_matrix.csv,2026-06-27T13:52:32.078288+00:00
+Stage 1 command passed,pass,Command completed.,run_project.py,2026-06-27T15:23:40.666677+00:00
+data_capability_matrix.csv exists,pass,Required output checked.,reports/tables/data_capability_matrix.csv,2026-06-27T15:23:40.666677+00:00
+claim_enforcement_summary.csv exists,pass,Required output checked.,reports/tables/claim_enforcement_summary.csv,2026-06-27T15:23:40.666677+00:00
+feed_integrity_summary.csv exists,pass,Required output checked.,reports/tables/feed_integrity_summary.csv,2026-06-27T15:23:40.666677+00:00
+claim boundaries preserved,pass,"No trading, profitability, best-execution, live-trading or broker-grade TCA claim.",reports/tables/data_capability_matrix.csv,2026-06-27T15:23:40.666677+00:00

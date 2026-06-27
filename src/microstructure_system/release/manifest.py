@@ -6,7 +6,15 @@ import pandas as pd
 
 from microstructure_system.utils.hashing import file_sha256
 
-EXCLUDED_PARTS = {".venv", ".pytest_cache", ".ruff_cache", ".mypy_cache", "__pycache__", "dist"}
+EXCLUDED_PARTS = {
+    ".venv",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".mypy_cache",
+    "__pycache__",
+    "dist",
+    "paper",
+}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".log", ".tmp", ".bak"}
 
 
@@ -48,6 +56,7 @@ def build_release_exclusions() -> pd.DataFrame:
                 ".env",
                 "data/raw",
                 "data/external",
+                "paper",
                 "paid data",
                 "account-restricted data",
                 "licence-restricted data",
@@ -68,6 +77,7 @@ def build_release_exclusions() -> pd.DataFrame:
                 "environment file",
                 "raw external data path",
                 "external data path",
+                "manual paper draft path",
                 "restricted data",
                 "restricted data",
                 "restricted data",

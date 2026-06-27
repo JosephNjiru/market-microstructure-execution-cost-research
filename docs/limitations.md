@@ -4,7 +4,7 @@ No full L3 data or actual broker execution records are configured. Generated fix
 
 A Stage 4B maintainability patch restored the modular code layout while preserving the validated evidence scope, claim-boundary audit and release behaviour.
 
-A Stage 4C public-readiness patch moved implementation logic out of the pipeline coordinator, expanded the final report and software paper, strengthened tests and rebuilt the clean release package.
+A Stage 4C public-readiness patch moved implementation logic out of the pipeline coordinator, expanded the final report, strengthened tests and rebuilt the clean release package. The software paper will be finalised separately and is not part of the public repository upload.
 
 Use the clean source release package in dist for public sharing. Do not upload virtual environments, caches or restricted data.
 

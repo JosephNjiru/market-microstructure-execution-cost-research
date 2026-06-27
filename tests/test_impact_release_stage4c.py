@@ -40,3 +40,4 @@ def test_release_zip_excludes_environment_and_cache_paths() -> None:
     joined = "\n".join(names)
     assert ".venv" not in joined
     assert "__pycache__" not in joined
+    assert not any(name.startswith("paper/") for name in names)

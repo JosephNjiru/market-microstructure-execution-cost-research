@@ -20,7 +20,6 @@ def build_claim_boundary_audit() -> pd.DataFrame:
         "README.md",
         "reports/market_microstructure_execution_cost_report.md",
         "reports/market_microstructure_execution_cost_report.html",
-        "paper/software_paper.md",
         "docs/limitations.md",
         "reports/tables/final_table_registry.csv",
         "reports/tables/claim_enforcement_summary.csv",

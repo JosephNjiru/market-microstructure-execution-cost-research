@@ -13,6 +13,7 @@ __pycache__,bytecode cache,excluded
 .env,environment file,excluded
 data/raw,raw external data path,excluded
 data/external,external data path,excluded
+paper,manual paper draft path,excluded
 paid data,restricted data,excluded
 account-restricted data,restricted data,excluded
 licence-restricted data,restricted data,excluded

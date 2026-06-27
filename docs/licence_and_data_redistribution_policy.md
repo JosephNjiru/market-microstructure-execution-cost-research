@@ -7,3 +7,5 @@ Use the clean source release package in dist for public sharing. Do not upload v
 Author: Joseph N. Njiru.
 
 For GitHub or public sharing, upload `dist/market_microstructure_execution_cost_system_source_release.zip` or a cleaned repository folder that excludes `.venv`, caches, compiled files, environment files and restricted data.
+
+The `paper` folder is intentionally excluded from the public upload because the software paper will be finalised manually.

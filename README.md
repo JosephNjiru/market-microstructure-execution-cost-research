@@ -29,7 +29,6 @@ Generated fixtures support mechanics validation, stress checks and accounting re
 - `config`: Stage configuration and claim policy inputs.
 - `docs`: Research methodology, limitations, data capability and redistribution protocols.
 - `reports`: Generated tables, figures, final report and audit evidence.
-- `paper`: Research software paper draft and references.
 - `dist`: Clean source release package for public sharing.
 
 ## Commands
@@ -58,4 +57,4 @@ Do not upload `.venv`, `.pytest_cache`, `.ruff_cache`, `.mypy_cache`, `__pycache
 
 A Stage 4B maintainability patch restored the modular code layout while preserving the validated evidence scope, claim-boundary audit and release behaviour.
 
-A Stage 4C public-readiness patch moved implementation logic out of the pipeline coordinator, expanded the final report and software paper, strengthened tests and rebuilt the clean release package.
+A Stage 4C public-readiness patch moved implementation logic out of the pipeline coordinator, expanded the final report, strengthened tests and rebuilt the clean release package. The software paper will be finalised separately and is not part of the public repository upload.

@@ -55,7 +55,7 @@ def build_publication_readiness_scorecard() -> pd.DataFrame:
         "reproducibility",
         "limitations",
         "release package",
-        "software paper draft",
+        "manual software paper pathway",
     ]
     return pd.DataFrame(
         {
