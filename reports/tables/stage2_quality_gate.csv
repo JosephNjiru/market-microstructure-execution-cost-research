@@ -1,5 +1,5 @@
 check_name,status,details,evidence_path,run_timestamp_utc
-Stage 2 command passed,pass,Command completed.,run_project.py,2026-06-27T15:31:52.190097+00:00
-order_book_feature_summary.csv exists,pass,Required output checked.,reports/tables/order_book_feature_summary.csv,2026-06-27T15:31:52.190097+00:00
-stage2_claim_enforcement_summary.csv exists,pass,Required output checked.,reports/tables/stage2_claim_enforcement_summary.csv,2026-06-27T15:31:52.190097+00:00
-claim boundaries preserved,pass,"No trading, profitability, best-execution, live-trading or broker-grade TCA claim.",reports/tables/data_capability_matrix.csv,2026-06-27T15:31:52.190097+00:00
+Stage 2 command passed,pass,Command completed.,run_project.py,2026-06-28T07:30:19.898905+00:00
+order_book_feature_summary.csv exists,pass,Required output checked.,reports/tables/order_book_feature_summary.csv,2026-06-28T07:30:19.898905+00:00
+stage2_claim_enforcement_summary.csv exists,pass,Required output checked.,reports/tables/stage2_claim_enforcement_summary.csv,2026-06-28T07:30:19.898905+00:00
+claim boundaries preserved,pass,"No trading, profitability, best-execution, live-trading or broker-grade TCA claim.",reports/tables/data_capability_matrix.csv,2026-06-28T07:30:19.898905+00:00

@@ -12,10 +12,20 @@ EXCLUDED_PARTS = {
     ".ruff_cache",
     ".mypy_cache",
     "__pycache__",
+    "build",
     "dist",
+    "env",
+    "journal",
+    "linkedin",
+    "manuscripts",
     "paper",
+    "publication",
+    "publications",
+    "slides",
+    "venv",
 }
-EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".log", ".tmp", ".bak"}
+EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".log", ".tmp", ".bak", ".zip"}
+EXCLUDED_NAMES = {".DS_Store", "Thumbs.db", ".env"}
 
 
 def build_output_inventory(project_root: Path) -> pd.DataFrame:
@@ -54,9 +64,21 @@ def build_release_exclusions() -> pd.DataFrame:
                 "*.tmp",
                 "*.bak",
                 ".env",
+                ".env.*",
+                "*.zip",
+                "dist",
+                "build",
+                "paper",
+                "linkedin",
+                "journal",
+                "publication",
+                "publications",
+                "manuscripts",
+                "slides",
+                ".DS_Store",
+                "Thumbs.db",
                 "data/raw",
                 "data/external",
-                "paper",
                 "paid data",
                 "account-restricted data",
                 "licence-restricted data",
@@ -75,9 +97,21 @@ def build_release_exclusions() -> pd.DataFrame:
                 "temporary file",
                 "backup file",
                 "environment file",
+                "environment file variant",
+                "archive file",
+                "local distribution path",
+                "local build path",
+                "separate paper path",
+                "separate social media path",
+                "separate journal path",
+                "separate publication path",
+                "separate publication path",
+                "separate manuscript path",
+                "separate presentation path",
+                "operating system metadata",
+                "operating system metadata",
                 "raw external data path",
                 "external data path",
-                "manual paper draft path",
                 "restricted data",
                 "restricted data",
                 "restricted data",
@@ -92,5 +126,6 @@ def _is_excluded_path(relative_path: Path) -> bool:
     return (
         any(part in EXCLUDED_PARTS for part in relative_path.parts)
         or relative_path.suffix in EXCLUDED_SUFFIXES
-        or relative_path.name == ".env"
+        or relative_path.name in EXCLUDED_NAMES
+        or relative_path.name.startswith(".env.")
     )

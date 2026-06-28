@@ -11,9 +11,21 @@ __pycache__,bytecode cache,excluded
 *.tmp,temporary file,excluded
 *.bak,backup file,excluded
 .env,environment file,excluded
+.env.*,environment file variant,excluded
+*.zip,archive file,excluded
+dist,local distribution path,excluded
+build,local build path,excluded
+paper,separate paper path,excluded
+linkedin,separate social media path,excluded
+journal,separate journal path,excluded
+publication,separate publication path,excluded
+publications,separate publication path,excluded
+manuscripts,separate manuscript path,excluded
+slides,separate presentation path,excluded
+.DS_Store,operating system metadata,excluded
+Thumbs.db,operating system metadata,excluded
 data/raw,raw external data path,excluded
 data/external,external data path,excluded
-paper,manual paper draft path,excluded
 paid data,restricted data,excluded
 account-restricted data,restricted data,excluded
 licence-restricted data,restricted data,excluded

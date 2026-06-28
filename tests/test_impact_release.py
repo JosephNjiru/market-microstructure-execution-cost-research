@@ -31,7 +31,20 @@ def test_sensitivity_is_deterministic(
 
 def test_release_exclusions_cover_public_cleanliness_requirements() -> None:
     patterns = set(build_release_exclusions()["pattern"])
-    assert {".venv", ".pytest_cache", ".ruff_cache", ".mypy_cache", "__pycache__", ".env"}.issubset(patterns)
+    assert {
+        ".venv",
+        ".pytest_cache",
+        ".ruff_cache",
+        ".mypy_cache",
+        "__pycache__",
+        ".env",
+        ".env.*",
+        "*.zip",
+        "dist",
+        "paper",
+        "linkedin",
+        "journal",
+    }.issubset(patterns)
 
 
 def test_release_zip_excludes_environment_and_cache_paths() -> None:
@@ -39,6 +52,7 @@ def test_release_zip_excludes_environment_and_cache_paths() -> None:
     with ZipFile(package) as archive:
         names = archive.namelist()
     joined = "\n".join(names)
+    assert ".github/workflows/ci.yml" in names
     assert ".venv" not in joined
     assert "__pycache__" not in joined
     assert not any(name.startswith("paper/") for name in names)

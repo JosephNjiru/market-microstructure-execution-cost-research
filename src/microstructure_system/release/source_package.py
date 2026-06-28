@@ -17,7 +17,7 @@ def build_source_release_package(project_root: Path) -> Path:
     package_path.parent.mkdir(parents=True, exist_ok=True)
     if package_path.exists():
         package_path.unlink()
-    include_roots = {"src", "tests", "config", "docs", "reports"}
+    include_roots = {".github", "src", "tests", "config", "docs", "reports"}
     include_files = {"README.md", "pyproject.toml", "uv.lock", "run_project.py", ".gitignore"}
     with ZipFile(package_path, "w", ZIP_DEFLATED) as archive:
         for file in sorted(project_root.rglob("*")):
