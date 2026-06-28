@@ -48,6 +48,7 @@ def test_release_package_exists_and_excludes_clutter() -> None:
     with ZipFile(package) as archive:
         names = archive.namelist()
     assert "README.md" in names
+    assert ".gitattributes" in names
     assert "pyproject.toml" in names
     assert any(name.startswith("src/") for name in names)
     assert any(name.startswith("tests/") for name in names)

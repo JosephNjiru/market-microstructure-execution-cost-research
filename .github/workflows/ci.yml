@@ -21,7 +21,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
 
       - name: Run tests
-        run: python -m uv run pytest
+        run: uv run pytest
 
       - name: Run Ruff
-        run: python -m uv run ruff check .
+        run: uv run ruff check .

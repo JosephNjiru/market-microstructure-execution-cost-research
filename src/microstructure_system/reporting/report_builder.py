@@ -130,7 +130,7 @@ Sensitivity outputs summarise deterministic changes across order-size bucket, sp
 
 ## Final claim-boundary audit
 
-The final claim-boundary audit contains 81 rows and has zero failure rows under the current run. It checks prohibited topics across public-facing artefacts and enforcement tables. This audit is a reproducibility control and a public communication control.
+The final claim-boundary audit records the current run checks and has zero failure rows under the current configuration. It checks prohibited topics across public-facing artefacts and enforcement tables. This audit is a reproducibility control and a public communication control.
 
 ## Limitations
 
