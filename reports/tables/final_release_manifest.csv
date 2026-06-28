@@ -1,5 +1,6 @@
 path,artifact_type,stage,size_bytes,hash,included_in_release,notes
-.github\workflows\ci.yml,.yml,current,470,00bd59dd62d809e6f443eb2c63f5d5d91a9c12f6b018d032bb4d9b1ca4b2f80b,True,Current project artefact.
+.gitattributes,file,current,151,348edde210616c70551f2e6cb6dbb2353d45fb9456866c86e7e0357aaf195439,True,Current project artefact.
+.github\workflows\ci.yml,.yml,current,450,10589131d0abefbf451dac10b1463811229bcaf84f6255b9fcec1ac4156c9f6a,True,Current project artefact.
 .gitignore,file,current,297,bfaba9c458c70179735d862f4ffc98e10a81a05d331829a965b91bb452614451,True,Current project artefact.
 config\claim_policy.yaml,.yaml,current,319,4d5e4c6c90de6447e1e249b579a3f4830b4280abdacf7a1dea315779e25cc10f,True,Current project artefact.
 config\data_sources.yaml,.yaml,current,385,8cd6cf627cd41e1a62deea753739687ed77c27403adfc9a1035cfbb03995fdae,True,Current project artefact.
@@ -50,8 +51,8 @@ reports\figures\slippage_by_benchmark.png,.png,current,8519,a4a985a762e08fe02444
 reports\figures\sweep_levels_consumed.png,.png,current,7557,e7069b8674e249fe224027d71b51ce695d93338a891567f386889628b94b2b90,True,Current project artefact.
 reports\figures\tiny_lob_depth_example.png,.png,current,11266,b849aa0bd1bec73209562d268e7c6ee43d9538f3e9d5c8568d8a92d0f25242e5,True,Current project artefact.
 reports\figures\tiny_lob_spread_example.png,.png,current,11809,0256905880056b844d03c053a525b31c28fd9bd48b5befc05c4e24929af00cc7,True,Current project artefact.
-reports\market_microstructure_execution_cost_report.html,.html,current,14459,eab545a16424ec272e4b35d3da339585f0f0a971d763143afb93c1667efa0cb2,True,Current project artefact.
-reports\market_microstructure_execution_cost_report.md,.md,current,14151,ad8c84455c82d4ef87a2cd2cee5f3c936f9cd6da88c2cbc68c2f5cdaa4ac7cb5,True,Current project artefact.
+reports\market_microstructure_execution_cost_report.html,.html,current,14483,60c6f1165791a779f49ed64e66a8fd74badb65ebf63dd628542d2b639af67841,True,Current project artefact.
+reports\market_microstructure_execution_cost_report.md,.md,current,14175,25c827745d161bbcb9c39a7f36c84d13e898ca7c41d4c91f647f253678984b06,True,Current project artefact.
 reports\tables\baseline_model_performance.csv,.csv,current,462,b73cbea851cb3e05606f52967d8eaa8fc9aebc2e160410b95265b33bc1dba24b,True,Current project artefact.
 reports\tables\claim_enforcement_summary.csv,.csv,current,1487,5ef93d5661e4825ac1d29f394c1bc81fa4a47804704535e725557c1312a19f5f,True,Current project artefact.
 reports\tables\cost_attribution_summary.csv,.csv,current,1224,af9d5568c3eb939041f8de9b714c2ba22f797ff28619258c96ae70a38d2739e0,True,Current project artefact.
@@ -62,10 +63,10 @@ reports\tables\execution_sensitivity_summary.csv,.csv,current,1465,9088574692aa4
 reports\tables\feed_integrity_summary.csv,.csv,current,701,53daa1e57a163fce98829c554551fed8f2bc5595a968858555d19af73ee9a61e,True,Current project artefact.
 reports\tables\final_claim_boundary_audit.csv,.csv,current,11827,80795c78fcd13b0787414bdfcfbfcbda00d8d9781d85c8dbc373920b3d15ae0e,True,Current project artefact.
 reports\tables\final_figure_registry.csv,.csv,current,7030,63fef40cc7ff86954518a41bfa1cd14e257e065d3e936460d318e11959804b25,True,Current project artefact.
-reports\tables\final_quality_gate.csv,.csv,current,3310,5f4ebcdb83017a4efabc4c8928aa4485dcc0047d39d0bcb0732c5ea085cf154c,True,Current project artefact.
+reports\tables\final_quality_gate.csv,.csv,current,3310,c67a32daadbb5382d1ab496d87062b204abae6e2488dd0172d7076f5896e9931,True,Current project artefact.
 reports\tables\final_release_exclusions.csv,.csv,current,1245,737a173beae3ec5c6580507990975f55540603eff34dd5dd0d6de1f00ec4b98c,True,Current project artefact.
-reports\tables\final_release_manifest.csv,.csv,current,25860,cb4a618ad63853f88dae21c4326cb335cd7408eb5669a8d81e8423474ca2e695,True,Current project artefact.
-reports\tables\final_table_registry.csv,.csv,current,12202,dc691cd9d0751da84e908f2b07fd0fc9ed214428687d405a0fa0e9174cf012c7,True,Current project artefact.
+reports\tables\final_release_manifest.csv,.csv,current,25860,2ecdf4c929b950b220700ad90d31c861c0a692f6803eb146745a558ddccaa97e,True,Current project artefact.
+reports\tables\final_table_registry.csv,.csv,current,12202,4bf1d1c9d2578c3c5941332dfaedd84ca87660b6ae6dee75a953fbe2c72b89e7,True,Current project artefact.
 reports\tables\imbalance_summary.csv,.csv,current,102,f03c06ebd20a6354bd379eefc445084677b2b9402dc617955f070db41d70708d,True,Current project artefact.
 reports\tables\impact_proxy_summary.csv,.csv,current,1563,73434a6485fdc349413818b8f3ead1df63edec88e8670bbceeff28867c6ad96b,True,Current project artefact.
 reports\tables\implementation_shortfall_summary.csv,.csv,current,1826,6de1e73e224cb90ea04a225b2efa5ab06b1170ca79862cf6975a3323373e321b,True,Current project artefact.
@@ -76,7 +77,7 @@ reports\tables\limit_order_fill_approximation_summary.csv,.csv,current,375,24c85
 reports\tables\liquidity_regime_summary.csv,.csv,current,89,845b397d050411690517443e3a4e3234d21276350f32d5f909750e58c28e03c8,True,Current project artefact.
 reports\tables\microprice_summary.csv,.csv,current,65,68b79f2ec9e2f1c5bf3a88dbb2475a9f9c7f9bb204d99f737e05971b3f013e83,True,Current project artefact.
 reports\tables\order_book_feature_summary.csv,.csv,current,525,57b5ccd94a3313de7ed02caaeb2ccb1e4bca73520db5f7f4146355f38fc5e264,True,Current project artefact.
-reports\tables\output_inventory.csv,.csv,current,25860,e7fdf09d65fc12208f9b3fbcab80c99b235de54fd1da3c3dcdb4830b2612d0cd,True,Current project artefact.
+reports\tables\output_inventory.csv,.csv,current,25989,ef96d07c6c3696feffd775b8cdc9c93b966217d9dc5ed95c8c8d439b37d4ff61,True,Current project artefact.
 reports\tables\publication_readiness_scorecard.csv,.csv,current,2710,eb6e9c74f8f97e7011f3c90b10611d54e9c456430cfbf72921ac79abd1f7a261,True,Current project artefact.
 reports\tables\reproducibility_manifest.csv,.csv,current,2107,efec3317377bc86eef23f1447ca20e47522acba00506a129fac1a5b5a558b4fa,True,Current project artefact.
 reports\tables\schedule_execution_summary.csv,.csv,current,876,ace7f6bfedfda9be33f9f8d2507aae0df02e67793cff97318c616e2aefdbce13,True,Current project artefact.
@@ -129,11 +130,11 @@ src\microstructure_system\quality\stage2_quality.py,.py,current,428,ddab3153c558
 src\microstructure_system\quality\stage3_quality.py,.py,current,422,14efa408e75407fe458622e8a759d336c03bfa2a46f37c8c74c2eea901194eb3,True,Current project artefact.
 src\microstructure_system\release\manifest.py,.py,current,3938,ee0a25e260caf886a7eea4d1d33d5a60c9d6a27d152f625216d4892751405608,True,Current project artefact.
 src\microstructure_system\release\reproducibility.py,.py,current,1773,1440d9d7e50b7b1c77ee1ffea9e60c2e06d4f68fe62cceb283ebca50cd7726fa,True,Current project artefact.
-src\microstructure_system\release\source_package.py,.py,current,1312,bde13256e40d00f2daa6e44f196e9969f82073220d83e4d1c320a0ad94e25eb2,True,Current project artefact.
+src\microstructure_system\release\source_package.py,.py,current,1385,d661042b2af8f1f7930a19926aff8a82a55cf74b9e6f07c0ddd58027775af31e,True,Current project artefact.
 src\microstructure_system\reporting\claim_boundary_audit.py,.py,current,1505,06dda96598f7f9e11e12cfe50759bbe874b5074af18e652710fe838cce835ea4,True,Current project artefact.
 src\microstructure_system\reporting\figure_registry.py,.py,current,1273,8a1054440c1701eed2d7c6b04c13cc48fb32725c36d0a5017f83e4eb8f0ad5cb,True,Current project artefact.
 src\microstructure_system\reporting\publication_readiness.py,.py,current,2190,edd3d48eb60abca8ed43da4ebe1520eba940892a217863a04b870c16ca50b9fd,True,Current project artefact.
-src\microstructure_system\reporting\report_builder.py,.py,current,14625,dc8e5f41e7d5ca1db47ea08892d42c2406a5e589f1bfa8848feb841af8fc3a77,True,Current project artefact.
+src\microstructure_system\reporting\report_builder.py,.py,current,14649,fb7e06d3e7693a1e27036603ea59a6795443006bfe21610022eb92b9fbd3a83d,True,Current project artefact.
 src\microstructure_system\reporting\table_registry.py,.py,current,1854,8f5da982166e47d3bad30f6752d0fc8e71d9ebe342645a2745f361bffeb4dc5b,True,Current project artefact.
 src\microstructure_system\schemas\canonical.py,.py,current,279,cc9db5540223f9f7dead83533d47e2c2808ec96a5a23bd4f9c0dafc9876cb934,True,Current project artefact.
 src\microstructure_system\schemas\validation.py,.py,current,872,d97e8caddfa6dc81de570ae90b2e9952cfa5e24f12ae0a72792d7b86c8b93bd6,True,Current project artefact.
@@ -155,7 +156,7 @@ tests\test_impact_release.py,.py,current,1817,8aaf46e43d120f43db3523621873783e76
 tests\test_labels_intensity_models.py,.py,current,1041,6ffe1c072cf2b527d12a3457c2f0586755a4cd9ab3cf629b66b9bcb18ed22e07,True,Current project artefact.
 tests\test_module_behaviour.py,.py,current,14025,29c6756ba3bd78375b9f0946ab9789af0dd6943b26fb986eb722bd7afd821350,True,Current project artefact.
 tests\test_order_book_features.py,.py,current,1276,8d3602c8012d2138415f182c3af778701570122d494d7a4e5248b40a97e694a6,True,Current project artefact.
-tests\test_project_audit.py,.py,current,2646,3d7f065c74bc3c6319bf440d77e9f2bcb48248d218edd2774090f488bff4093a,True,Current project artefact.
+tests\test_project_audit.py,.py,current,2683,1b55fc947464a1c16b3b105fbf8342ff63ea86cdf0e35dac4e496974d97d902e,True,Current project artefact.
 tests\test_reporting.py,.py,current,2048,3956a572cebc4d5bfa1e33195fc365d618bd44859924fca9208b01c0ae9fad34,True,Current project artefact.
 tests\test_repro_quality_scope.py,.py,current,1119,f15f5d208a4a30f07cd9b891c775dd2efb8c9941caeb62568bc17d2de8a0375a,True,Current project artefact.
 tests\test_schema_and_fixture.py,.py,current,1130,66958584b765c50a614cfd8c43b6ed9507f8f404dbf5c265c6a17e598611a324,True,Current project artefact.
